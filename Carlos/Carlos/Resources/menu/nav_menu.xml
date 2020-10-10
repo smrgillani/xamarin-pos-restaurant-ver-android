@@ -1,0 +1,16 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_rest"
+      android:icon="@drawable/drawableicono"
+      android:title="RESERVACIONES" />
+    <item
+      android:id="@+id/nav_resr"
+      android:icon="@drawable/drawableicont"
+      android:title="RESERVACIONES" />
+    <item
+      android:id="@+id/nav_cuen"
+      android:icon="@drawable/drawableiconthree"
+      android:title="CUENTA" />
+  </group>
+</menu>

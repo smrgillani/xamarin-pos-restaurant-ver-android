@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout    
+         android:layout_width="match_parent"    
+         android:layout_height="70dp"    
+         android:orientation="vertical">    
+      <include layout="@layout/toolbar" />
+    </LinearLayout>
+	<TextView
+		android:text="Mi Informacion "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1"
+		android:textStyle="bold"
+		android:layout_marginLeft="150dp"
+		android:textColor="#4527A0"
+		android:layout_marginTop="0dp"/>
+	<EditText
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Nombre"
+		android:textSize="14dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/PhoneNumber" />
+	<EditText
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Email"
+		android:textSize="14dp"
+		android:layout_marginTop="20dp"
+		android:id="@+id/EmailAddr" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:textSize="14dp"
+		android:layout_height="wrap_content"
+		android:hint="Contrasena"
+		android:layout_marginTop="20dp"
+		android:id="@+id/Password" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:textSize="14dp"
+		android:layout_height="wrap_content"
+		android:hint="Confirma Contrasena"
+		android:layout_marginTop="20dp"
+		android:id="@+id/CnfrmPassword" />
+	<TextView
+		android:text="Al continaur con la creacion de tu "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="10sp"
+		android:layout_marginLeft= "130dp"
+		android:layout_marginTop="30dp"
+		android:textColor="#000"
+		android:id="@+id/textView2" />
+	<TextView
+		android:text="ceunta, estas aceptando nuestros "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="10sp"
+		android:layout_marginLeft= "130dp"
+		android:layout_marginTop="10dp"
+		android:textColor="#000"
+		android:id="@+id/textView2" />
+	<TextView
+		android:text="Terminos de Servicio Aviso de Privicidad  "
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="10sp"
+		android:layout_marginLeft= "115dp"
+		android:layout_marginTop="10dp"
+		android:textColor="#4527A0"
+		android:id="@+id/textView2" />
+	<Button
+		android:text="Enviar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/SignupBtn"
+		android:textColor="#fafafa"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="30dp"
+		android:textStyle="bold"
+	android:background="#4527A0"/>
+</LinearLayout>

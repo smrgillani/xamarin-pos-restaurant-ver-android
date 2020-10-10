@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_height="wrap_content"
+		android:paddingBottom="5dp"
+		android:paddingTop="5dp">
+		
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/Picframelayout" >
+
+		<TextView
+			android:text="Mesa para dos"
+			android:layout_gravity="left"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_marginLeft="10dp"
+			android:textColor="#424242"
+			android:id="@+id/mesasmpd" />
+
+	
+		<TextView
+			android:text="2 Personas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_gravity="center"
+			android:textColor="#424242"
+			android:id="@+id/mesasp" />
+
+		<TextView
+			android:text="4 Mesas"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right"
+			android:layout_marginRight="10dp"
+			android:textSize="13sp"
+			android:textColor="#424242"
+			android:id="@+id/mesasm" />
+
+
+		</FrameLayout>
+	</LinearLayout>
+
+</LinearLayout>

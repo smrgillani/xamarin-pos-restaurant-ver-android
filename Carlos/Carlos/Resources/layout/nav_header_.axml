@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_width="match_parent"
+   android:layout_height="147dp"
+   android:background="#EA8435"
+   android:padding="27dp"
+   android:orientation="vertical"
+   android:gravity="bottom">
+	<ImageView
+		android:src="@drawable/logoonmenu"
+		android:layout_width="match_parent"
+		android:layout_height="90dp"
+		android:id="@+id/imageView1" />
+</LinearLayout>

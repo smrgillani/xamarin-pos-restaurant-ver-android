@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		<TextView
+		android:text="La reserva en Ki vegan Food requiere un pago anticipado de $50."
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="10dp"
+		android:inputType="textMultiLine"
+		android:id="@+id/ResFirstTW" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/restTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurante"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/restText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : KI VEGAN FOOD"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fechaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/fechatext"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : 31 de octubre de 2018"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/numTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Número de Personas"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/numText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : 5 Persona(s)"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/areaTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Área"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/areaText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : Terraza"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dirTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/dirText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : Av. Londres 134-A, Col. Roma Norte, Ciudad de México"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/teleTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfono"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/teleText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : 5589-1015"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/obsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Observaciones"
+				android:textColor="#4527A0"
+				android:textStyle="bold"
+				android:layout_marginTop="30dp"
+				android:layout_marginLeft="20dp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/obsText"
+				android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" : SIN OBSERVACIONES"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+			<Button
+				android:text="CONFIRMAR"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ResBtnCon"
+				android:textColor="#fafafa"
+				android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="60dp"
+				android:textStyle="bold"
+				android:background="#4527A0"	/>
+
+    </LinearLayout>
+</LinearLayout>

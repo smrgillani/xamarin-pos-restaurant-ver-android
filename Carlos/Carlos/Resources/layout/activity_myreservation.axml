@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Reservaciones Pendientes"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp"
+		android:textColor="#4527A0"
+		android:textSize="18sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PendRestxt" />
+	<TextView
+		android:text="Res_Nombre(NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="10dp"
+		android:textColor="#000"
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PendResNametxt" />
+
+	<TextView
+		android:text="Res_Fecha(NULL) | Personas: (NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:textColor="#000"
+		android:textSize="15sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PendDate_persontxt" />
+	
+	<TextView
+		android:text="Confirmacion:Res_idReserva(NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:textColor="#000"
+		android:textSize="15sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PendConfResidtxt" />
+
+	<TextView
+		android:text="Reservaciones Anteriores"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp"
+		android:textColor="#4527A0"
+		android:textSize="18sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PrevRestxt" />
+	<TextView
+		android:text="Res_Nombre(NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="10dp"
+		android:textColor="#000"
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PrevResNametxt" />
+
+	<TextView
+		android:text="Res_Fecha(NULL) | Personas: (NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:textColor="#000"
+		android:textSize="15sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PrevDate_persontxt" />
+	
+	<TextView
+		android:text="Confirmacion:Res_idReserva(NULL)"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:textColor="#000"
+		android:textSize="15sp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/PrevConfResidtxt" />
+
+
+
+</LinearLayout>

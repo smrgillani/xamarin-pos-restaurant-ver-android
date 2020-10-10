@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/loginhil"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitStart"
+		android:id="@+id/imageView1" />
+	<ImageView
+		android:src="@drawable/logintbsl"
+		android:layout_marginTop="42dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scaleType="fitStart"
+		android:id="@+id/imageView2" />
+	<ImageView
+		android:src="@drawable/loginlogol"
+		android:scaleType="fitStart"
+		android:layout_width="110dp"
+		android:layout_marginTop="50dp"
+		android:layout_marginLeft="20dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView3" />
+	<TextView
+		android:text="Soft"
+		android:layout_marginTop="75dp"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:layout_marginLeft="149dp"
+		android:textSize="23dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1" />
+	<TextView
+		android:text="Restuarant"
+		android:layout_marginTop="75dp"
+		android:textColor="#fff"
+		android:layout_marginLeft="194dp"
+		android:textSize="23dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2" />
+	<TextView
+		android:text="Reservaciones"
+		android:layout_marginTop="115dp"
+		android:textColor="#fff"
+		android:layout_marginLeft="149dp"
+		android:textSize="20dp"
+		android:textStyle="italic"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3" />
+	<EditText
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Email"
+		android:textSize="14dp"
+		android:layout_marginTop="275dp"
+		android:id="@+id/editText1" />
+	<EditText
+		android:inputType="textPassword"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:background="@drawable/borderloginet"
+		android:layout_width="match_parent"
+		android:textSize="14dp"
+		android:layout_height="wrap_content"
+		android:hint="Contrasena"
+		android:layout_marginTop="335dp"
+		android:id="@+id/editText3" />
+	<Button
+		android:background="@drawable/loginlbs"
+		android:textColor="#fff"
+		android:textSize="13dp"
+		android:text="INICIAR SESION"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="410dp"
+		android:layout_width="match_parent"
+		android:layout_height="38dp"
+		android:id="@+id/loginbtn" />
+	<Button
+		android:background="@drawable/loginrbs"
+		android:textColor="#fff"
+		android:textSize="13dp"
+		android:text="CREAR UNA CUENTA"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="470dp"
+		android:layout_width="match_parent"
+		android:layout_height="38dp"
+		android:id="@+id/registerbtn" />
+
+</FrameLayout>

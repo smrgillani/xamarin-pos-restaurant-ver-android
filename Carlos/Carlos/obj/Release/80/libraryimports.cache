@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments>
+    <ManifestDocument>obj\Release\80\lp\1\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\10\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\11\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\12\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\13\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\2\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\3\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\4\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\5\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\6\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\7\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\8\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\80\lp\9\jl\AndroidManifest.xml</ManifestDocument>
+  </ManifestDocuments>
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj\Release\80\lp\1\jl\bin\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\10\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\11\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\12\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\13\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\2\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\3\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\4\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\5\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\6\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\7\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\8\jl\classes.jar</Jar>
+    <Jar>obj\Release\80\lp\9\jl\classes.jar</Jar>
+  </Jars>
+</Paths>

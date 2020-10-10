@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+	android:orientation="vertical"
+	android:background="#D3D2D2"
+	android:scrollbars="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Picframelayout" >
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/myrestaurantbg"
+		android:id="@+id/frameimageview"/>
+		
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		android:layout_marginBottom="5dp"
+		android:layout_marginLeft="5dp"
+		android:background="@drawable/imgeditbtn"
+		android:id="@+id/frameeditbutton"/>
+
+	</FrameLayout>
+
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#EAEAEA"
+		android:layout_marginTop="10dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="7dp">
+		
+		<TextView
+			android:text="Editar Nombre"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:textColor="#242424"
+			android:id="@+id/editarnombre" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_marginTop="1dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp">
+		
+		<TextView
+			android:text="Ki Vegan Food"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#242424"
+			android:textSize="10sp"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/editarnombresub" />
+
+	</LinearLayout>
+			
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#EAEAEA"
+		android:layout_marginTop="10dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="7dp">
+		
+
+		<TextView
+			android:text="Editar Direccion"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#242424"
+			android:textSize="10sp"
+			android:textStyle="bold"
+			android:id="@+id/editardireccion" />
+	
+	</LinearLayout>
+	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_marginTop="1dp"
+		android:layout_height="80dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp">
+	
+		<TextView
+			android:text="Direccion"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#BCBCBC"
+			android:textSize="12sp"
+			android:id="@+id/direcciontv" />
+
+		<TextView
+			android:text="Ciudad"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#BCBCBC"
+			android:textSize="12sp"
+			android:layout_marginVertical="10dp"
+			android:id="@+id/ciudadtv" />
+		
+		<TextView
+			android:text="CP"
+			android:textSize="12sp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#BCBCBC"
+			android:id="@+id/cptv" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#EAEAEA"
+		android:layout_marginTop="10dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="7dp">
+		
+		<TextView
+			android:focusable="false"
+			android:text="Editar Horarios"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#242424"
+			android:textStyle="bold"
+			android:textSize="10sp"
+			android:id="@+id/editarhorarios" />
+		
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_marginTop="1dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp">
+	
+		<android.support.v7.widget.RecyclerView
+            android:id="@+id/hlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+	
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#EAEAEA"
+		android:layout_marginTop="10dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="7dp">
+		
+		<TextView
+			android:text="Editar Descripción"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#242424"
+			android:textStyle="bold"
+			android:textSize="10sp"
+			android:id="@+id/editardescripcion" />
+
+	</LinearLayout>
+
+		<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_marginTop="1dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="5dp">
+		<TextView
+			android:text="Alimentos veganos de la mejor calidad, ser saludable nunca fue tan delicioso!"
+			android:layout_width="wrap_content"
+			android:layout_height="50dp"
+			android:textSize="13sp"
+			android:textColor="#242424"
+			android:id="@+id/editardescripcionsubo" />
+		<TextView
+			android:text="Quedan 75 caracteres"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="12sp"
+			android:textColor="#BCBCBC"
+			android:id="@+id/editardescripcionsubt" />
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:background="#EAEAEA"
+		android:layout_marginTop="10dp"
+		android:layout_height="27dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:paddingLeft="10dp"
+		android:paddingTop="7dp">
+		
+		<TextView
+			android:focusable="false"
+			android:text="Editar Mesas"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#242424"
+			android:textStyle="bold"
+			android:textSize="10sp"
+			android:id="@+id/editarmesas" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:background="#fafafa"
+		android:layout_marginTop="1dp"
+		android:layout_marginBottom="15dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp">
+		
+		<android.support.v7.widget.RecyclerView
+            android:id="@+id/mlistview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+			
+	</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

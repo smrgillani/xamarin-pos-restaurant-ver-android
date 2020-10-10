@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="#979797"
+    android:layout_height="180dp">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:id="@+id/FrameLayoutBody" >
+		
+		<TextView
+			android:background="#D3D2D2"
+			android:text="Nombre del Cliente"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:textColor="#000"
+			android:paddingTop="5dp"
+			android:paddingBottom="5dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:textSize="13sp"
+			android:textStyle="bold"
+			android:paddingLeft="10dp"
+			android:id="@+id/ResrTitleTxt" />
+
+
+	<LinearLayout
+			android:background="#FFFFFF"
+			android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:paddingTop="3dp"
+            android:orientation="horizontal" >
+		
+		<TextView
+			android:text="29/11/2018 - "
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textStyle="bold"
+			android:textColor="#242424"
+			android:paddingLeft="10dp"
+			android:textSize="14sp"
+			android:id="@+id/ResrDateTxt" />
+
+		<TextView
+			android:text="21:00"
+			android:textColor="#242424"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textStyle="bold"
+			android:textSize="14sp"
+			android:id="@+id/ResrTimeTxt" />
+
+		<TextView
+			android:text=" |  Personas:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:paddingLeft="10dp"
+			android:textColor="#000"
+			android:textSize="14sp"
+			android:id="@+id/ResrPersonTitleTxt" />
+
+		<TextView
+			android:text="(4)"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:paddingLeft="5dp"
+			android:textStyle="bold"
+			android:textColor="#000"
+			android:textSize="14sp"
+			android:id="@+id/ResrPersonNumTxt" />
+		
+		<TextView
+			android:text="| Area:"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:paddingLeft="10dp"
+			android:textColor="#000"
+			android:textSize="14sp"
+			android:id="@+id/ResrAreaTitleTxt" />
+		
+		<TextView
+			android:text="Terraza"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:textStyle="bold"
+			android:paddingLeft="10dp"
+			android:textColor="#000"
+			android:textSize="14sp"
+			android:id="@+id/ResrAreaLocTxt" />
+
+    </LinearLayout>
+
+	<LinearLayout
+			android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:background="#FFFFFF"
+            android:orientation="horizontal" >
+		 
+		<TextView
+			android:text="Notas:"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="10dp"
+			android:textColor="#000"
+			android:textSize="14sp"
+			android:id="@+id/ResrNoteTitleTxt" />
+		
+		<TextView
+			android:text="NOTAS DE LA RESERVACIÓN, ESTE ES UN CAMPO DE TEXTO LARGO, SE MUESTRAN HASTA TRES LINEAS POR REGISTRO"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="5dp"
+			android:textStyle="bold"
+			android:textColor="#000"
+			android:textSize="13sp"
+			android:id="@+id/ResrNoteDescTxt" />
+	</LinearLayout>
+		<LinearLayout
+			android:layout_marginRight="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:background="#FFFFFF"
+			android:paddingBottom="5dp"
+			android:layout_marginLeft="10dp"
+			android:orientation="horizontal">
+			<TextView
+				android:text="Confirmacion:"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="10dp"
+				android:layout_marginTop="1dp"
+				android:textColor="#000"
+				android:textSize="14sp"
+				android:id="@+id/ResrConfTitleTxt" />
+			<TextView
+				android:text="AJK9571B"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:layout_marginTop="1dp"
+				android:textColor="#000"
+				android:textSize="14sp"
+				android:id="@+id/ResrConfCodeTxt" />
+			<TextView
+				android:text="Selecionar"
+				android:layout_width="wrap_content"
+				android:layout_height="30dp"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:paddingTop="5dp"
+				android:layout_marginTop="22dp"
+				android:textColor="#FFF"
+				android:layout_marginStart="80dp"
+				android:background="#ff4527a0"
+				android:textSize="14sp"
+				android:id="@+id/SelecResrBtnTxt" />
+		</LinearLayout>
+
+
+	</LinearLayout>
+</LinearLayout>

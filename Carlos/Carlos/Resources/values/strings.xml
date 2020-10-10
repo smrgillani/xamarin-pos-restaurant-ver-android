@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name">Soft Restaurant</string>
+  <string name="app_home">Reservaciones Activas</string>
+  <string name="app_reser">RESERVACIÓN</string>
+  <string name="resv_dtls">Detalle de Reservación</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="account_signup">CREAR CUENTA</string>
+  <string-array name="areaarray">
+    <item>Item 1</item>
+    <item>Item 2</item>
+  </string-array> 
+  <string-array name="area_array">
+    <item>Terraza</item>
+    <item>Cenar en</item>
+  </string-array>
+  
+</resources>

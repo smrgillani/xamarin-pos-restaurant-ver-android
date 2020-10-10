@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/splashbgl">
+	<ImageView
+		android:src="@drawable/splashtitlebgl"
+		android:layout_width="326dp"
+		android:scaleType="fitStart"
+		android:layout_marginTop="18dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/imageView1" />
+	
+	<TextView
+		android:text="Soft"
+		android:layout_marginTop="65dp"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:layout_marginLeft="30dp"
+		android:textSize="28dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1" />
+	<TextView
+		android:text="Restuarant"
+		android:layout_marginTop="65dp"
+		android:textColor="#fff"
+		android:layout_marginLeft="85dp"
+		android:textSize="28dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView2" />
+	<TextView
+		android:text="Reservaciones"
+		android:layout_marginTop="100dp"
+		android:textColor="#fff"
+		android:layout_marginLeft="30dp"
+		android:textSize="20dp"
+		android:textStyle="italic"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/textView3" />
+
+</FrameLayout>
